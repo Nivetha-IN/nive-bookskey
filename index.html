@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOKSKY</title>
+    <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+       <div class="navbar">
+        <h1>BookSky</h1>
+       </div>
+         
+        <div class="container">
+            <div class="Book-Container">
+                <h2>PRIDE AND PREJUDICE</h2>
+                <h4>Jane Austan</h4>
+                <p>👩 Elizabeth Bennet lives with her parents and four sisters in the English countryside. Her family isn’t rich, so her mother is desperate to marry her daughters to wealthy men.
+
+💍 A rich bachelor, Mr. Bingley, moves into the neighborhood. He quickly falls in love with Elizabeth’s kind and beautiful sister, Jane Bennet.
+
+😠 Elizabeth meets Mr. Darcy, Bingley’s friend. At first, she thinks he is proud and arrogant, and she dislikes him. Darcy also misunderstands Elizabeth and her family, so he judges them unfairly (prejudice).
+
+❤️ Over time, both Elizabeth and Darcy begin to see each other’s true character. Darcy helps her family during a scandal, and Elizabeth realizes he is actually kind and honorable.
+
+🌸 Finally, Darcy proposes to Elizabeth again, and this time she accepts. Jane also marries Mr. Bingley. Both couples end up happily married.</p>
+      <button>Delete</button>
+            </div>
+        </div>
+        <div class="popup-overlay"></div>
+        <div class="popup-box">
+             <h2>ADD BOOK</h2>
+             <form>
+             <input type="text" placeholder="Book Title" id="book-title-input">
+             <input type="text" placeholder="Book Author" id="book-author-input">
+             <textarea placeholder="short description" id="book-description-input"></textarea>
+             <button id="add-book">ADD</button>
+             <button id="cancel-popup">CANCEL</button>
+
+             </form>   
+
+        </div>
+
+        <button class="add-button" id="add-popup-button">+</button>
+    <script src="script.js" ></script>
+</body>
+</html>
